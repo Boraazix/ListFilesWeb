@@ -1,0 +1,28 @@
+#base {
+    margin-top: 2rem;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+
+@media only screen and (min-width: 1000px) {
+    #base {
+        width: 65% !important;
+        padding: 1.5rem 1.5rem 0 1.5rem;
+        border: black solid 1px;
+        border-radius: 7px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #base {
+        width: 50% !important;
+    }
+}
