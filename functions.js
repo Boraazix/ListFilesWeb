@@ -4,7 +4,7 @@ function activeInputFile() {
     fileInput.click();
 }
 
-// show de folder name
+// show the folder name
 function getFolderName(input) {
     if (input.files.length > 0) {
         var fullPath = input.files[0].webkitRelativePath || input.files[0].relativePath || '';
